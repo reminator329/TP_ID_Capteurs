@@ -65,9 +65,11 @@ public class Main {
             // System.out.println("Temps à " + ville + " : min = " + temps_min + " ; max = " + temps_max);
             System.out.println("Temps à " + (temps_min + temps_max) / 2);
 
-            MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
-            mqttConnectOptions.setUserName("upssitech");
-            mqttConnectOptions.setPassword("2011".toCharArray());
+            /*
+                MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
+                mqttConnectOptions.setUserName("upssitech");
+                mqttConnectOptions.setPassword("2011".toCharArray());
+            */
 
             MqttClient mqttClient = new MqttClient("tcp://localhost:1883", UUID.randomUUID().toString());
             mqttClient.connect();

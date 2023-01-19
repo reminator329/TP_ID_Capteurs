@@ -13,7 +13,7 @@ public class MeteoListener implements MqttCallback, Listener {
 
     public MeteoListener() {
         this.data = new MeteoData();
-        System.out.println("RUN");
+        System.out.println("RUN METEO");
         try {
             runClient();
         } catch (MqttException ignored) {
@@ -27,10 +27,12 @@ public class MeteoListener implements MqttCallback, Listener {
     }
 
     public void runClient() throws MqttException {
-
+        /*
         MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
         mqttConnectOptions.setUserName("upssitech");
         mqttConnectOptions.setPassword("2011".toCharArray());
+
+         */
 
         MqttClient mqttClient = new MqttClient("tcp://localhost:1883", UUID.randomUUID().toString());
         mqttClient.connect();

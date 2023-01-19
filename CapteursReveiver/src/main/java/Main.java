@@ -15,7 +15,7 @@ public class Main {
 
         EnsembleInterface bd = new BD_Ensemble();
 
-        //java.rmi.registry.LocateRegistry.createRegistry(12346);
+        java.rmi.registry.LocateRegistry.createRegistry(12346);
         Naming.rebind("rmi://localhost:12346/mon_serveur_capteurs", bd);
 
         while (true) {

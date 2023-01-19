@@ -7,6 +7,7 @@ import data.MeteoData;
 public enum Listeners {
 
     METEO("meteo", new MeteoListener()),
+    DISTANCE("distance", new DistanceListener())
     ;
 
     String name;

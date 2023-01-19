@@ -30,7 +30,7 @@ public class Main {
                 .setAllIntents().login().join();
         Main.api = api;
 
-        api.updateActivity(ActivityType.LISTENING, "/help");
+        api.updateActivity(ActivityType.LISTENING, "/ping");
 
         api.bulkOverwriteGlobalApplicationCommands(Commands.all()).join();
 

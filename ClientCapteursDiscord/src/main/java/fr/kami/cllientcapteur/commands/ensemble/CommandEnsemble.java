@@ -42,7 +42,7 @@ public class CommandEnsemble extends Command {
                 SlashCommandOption.createWithOptions(SlashCommandOptionType.SUB_COMMAND, "visualiser", "Permet d'afficher toutes les données de tous les ensembles'"),
                 SlashCommandOption.createWithOptions(SlashCommandOptionType.SUB_COMMAND_GROUP, "capteur", "Gestion des capteurs dans un ensemble", List.of(
                         SlashCommandOption.createWithOptions(SlashCommandOptionType.SUB_COMMAND, "add", "Permet d'ajouter un capteur à un ensemble'", List.of(
-                                SlashCommandOption.createLongOption("id", "Identifiant de l'ensemble à modifier", true, 0, size),
+                                SlashCommandOption.createLongOption("id", "Identifiant de l'ensemble à modifier", true, 0, size+1),
                                 SlashCommandOption.createStringOption("name", "Nom du capteur à ajouter", true)
                         )),
                         SlashCommandOption.createWithOptions(SlashCommandOptionType.SUB_COMMAND, "remove", "Permet de supprimer un capteur d'un ensemble", List.of(
