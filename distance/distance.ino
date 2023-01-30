@@ -1,11 +1,3 @@
-/*
-* Ultrasonic Sensor HC-SR04 and Arduino Tutorial
-*
-* by Dejan Nedelkovski,
-* www.HowToMechatronics.com
-*
-*/
-
 // front sensor
 int trigPin = 2;    // TRIG pin
 int echoPin = 3;    // ECHO pin
