@@ -1,7 +1,7 @@
 # TP_ID_Capteurs
 ## Guide d'utilisation
 
-Ouvrir IntelliJ
+Ouvrir IntelliJ </br>
 Ouvrir les programmes dans des fenêtres différentes de IntelliJ
 * (MeteoSender ; DistanceSender) = Envoient les données des capteurs sur des topic MQTT
 * (CapteursReveiver) = Serveur qui récupère les données sur les topics MQTT et met à disposition une interface RMI
@@ -10,11 +10,10 @@ Ouvrir les programmes dans des fenêtres différentes de IntelliJ
 Lancer les programmes grâce aux Main.java. Il y a une particularité pour ClientCapteursDiscord qui a besoin du token du bot Discord en argument pour pouvoir l'utiliser.
 
 Ouvrir distance/distance.ino sur Arduino
-Brancher l'Arduino avec le capteur ultrason, en série avec le pc
-et téléverser le programme (ne pas ouvrir le moniteur série) 
+Brancher l'Arduino avec le capteur ultrason, en série avec le pc et téléverser le programme (ne pas ouvrir le moniteur série)
 
 Ouvrir Discord et rejoindre le serveur https://discord.gg/p6hqBsCfzr pour utiliser les commandes du bot Discord
-Le token du bot est disponible sur ce serveur Discord en message épinglé.
+Le token du bot est disponible sur ce serveur Discord sur demande.
 Ouvrir shiftr.io pour lancer MQTT
 
 Note : 
