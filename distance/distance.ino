@@ -37,7 +37,7 @@ Serial.print(dist);
 Serial.print(";");
 delay(300);
 
- }
+}
 void loop() {
 distance();
 }
