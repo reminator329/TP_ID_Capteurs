@@ -21,5 +21,5 @@ Note :
 Pour IntelliJ, il faut mettre une version 16 de gradle JVM pour chaque programme
 ![image](https://user-images.githubusercontent.com/63303367/213483867-2a500cdb-a4e0-43b4-a2dd-552a13e7045a.png)
 
-%%expliquer chaque commande
+## Commandes discord
 ![image](https://user-images.githubusercontent.com/74671671/215339958-a75debcf-93d8-429a-ba9f-e11211ee53bf.png)
