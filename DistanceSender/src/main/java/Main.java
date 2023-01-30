@@ -1,4 +1,4 @@
-import com.fazecast.jSerialComm.SerialPort;
+﻿import com.fazecast.jSerialComm.SerialPort;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -13,9 +13,9 @@ public class Main {
 
         System.out.println("Program Started!!!");
 
-        SerialPort sp = SerialPort.getCommPort("COM6"); // device name TODO: must be changed
-        sp.setComPortParameters(115200, 8, 1, 0); // default connection settings for Arduino
-        sp.setComPortTimeouts(SerialPort.TIMEOUT_NONBLOCKING, 0, 0); // block until bytes can be written
+        SerialPort sp = SerialPort.getCommPort("COM6");
+        sp.setComPortParameters(115200, 8, 1, 0);
+        sp.setComPortTimeouts(SerialPort.TIMEOUT_NONBLOCKING, 0, 0);
 
         if (sp.openPort()) {
             System.out.println("Port is open :)");
