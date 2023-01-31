@@ -12,7 +12,7 @@ Lancer les programmes grâce aux Main.java. Il y a une particularité pour Clien
 Ouvrir distance/distance.ino sur Arduino
 Brancher l'Arduino avec le capteur ultrason, en série avec le pc et téléverser le programme (ne pas ouvrir le moniteur série)
 
-Ouvrir Discord et rejoindre le serveur https://discord.gg/p6hqBsCfzr pour utiliser les commandes du bot Discord
+Ouvrir Discord et rejoindre le serveur https://discord.gg/p6hqBsCfzr pour utiliser les commandes du bot Discord.</br>
 Le token du bot est disponible sur ce serveur Discord sur demande.
 Ouvrir shiftr.io pour lancer MQTT
 
