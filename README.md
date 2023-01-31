@@ -1,4 +1,8 @@
 # TP_ID_Capteurs
+
+## Rapport
+Notre raport pour ce projet est disponible à la racine.
+
 ## Guide d'utilisation
 
 Ouvrir IntelliJ </br>
