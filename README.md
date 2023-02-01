@@ -11,13 +11,15 @@ Ouvrir les programmes dans des fenêtres différentes de IntelliJ
 * (CapteursReveiver) = Serveur qui récupère les données sur les topics MQTT et met à disposition une interface RMI
 * (ClientCapteursDiscord) = Client qui utilise les données du serveur pour permettre aux utilisateurs de faire des requêtes depuis Discord grâce à un bot
 
-Lancer les programmes grâce aux Main.java. Il y a une particularité pour ClientCapteursDiscord qui a besoin du token du bot Discord en argument pour pouvoir l'utiliser.
+Lancer les programmes grâce aux Main.java.</br>
+Il y a une particularité pour ClientCapteursDiscord qui a besoin du token du bot Discord en argument pour pouvoir l'utiliser, que vous pouvez recuperer dans le serveur discord.
 
 Ouvrir distance/distance.ino sur Arduino
 Brancher l'Arduino avec le capteur ultrason, en série avec le pc et téléverser le programme (ne pas ouvrir le moniteur série)
+![327752304_1681626788918522_5555186326133574391_n](https://user-images.githubusercontent.com/74671671/216063938-cfdce09e-c0fe-43fb-9807-6f5724e68764.jpg)
 
 Ouvrir Discord et rejoindre le serveur https://discord.gg/p6hqBsCfzr pour utiliser les commandes du bot Discord.</br>
-Le token du bot est disponible sur ce serveur Discord sur demande.
+Le token du bot est disponible sur ce serveur Discord sur demande.</br>
 Ouvrir shiftr.io pour lancer MQTT
 
 Note : 
