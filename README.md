@@ -5,6 +5,7 @@ Notre raport pour ce projet est disponible à la racine.
 
 ## Guide d'utilisation
 
+Ouvrir shiftr.io pour lancer MQTT</br>
 Ouvrir IntelliJ </br>
 Ouvrir les programmes dans des fenêtres différentes de IntelliJ
 * (MeteoSender ; DistanceSender) = Envoient les données des capteurs sur des topic MQTT
@@ -20,7 +21,7 @@ Brancher l'Arduino avec le capteur ultrason, en série avec le pc et téléverse
 
 Ouvrir Discord et rejoindre le serveur https://discord.gg/p6hqBsCfzr pour utiliser les commandes du bot Discord.</br>
 Le token du bot est disponible sur ce serveur Discord sur demande.</br>
-Ouvrir shiftr.io pour lancer MQTT
+
 
 Note : 
 Pour IntelliJ, il faut mettre une version 16 de gradle JVM pour chaque programme
