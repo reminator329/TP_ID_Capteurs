@@ -2,7 +2,7 @@
 
 ## Rapport
 Notre raport pour ce projet est disponible à la racine.
-Ci-dessous, le lien vers notre vidéo de démonstration. <\br>
+Ci-dessous, le lien vers notre vidéo de démonstration. </br>
 https://youtu.be/Ozm47bwWMQE
 
 ## Guide d'utilisation
